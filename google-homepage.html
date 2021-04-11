@@ -1,0 +1,62 @@
+<html>
+<style>
+	.body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	min-width: 400px;
+	font-size:14px;
+	font-family:arial,sans-serif;
+	color: #222;
+	background: ##fff;
+}
+	.body-thing{
+	display: flex;
+	flex-direction: column;
+	height:100%
+}
+	.headers{
+	display:flex;
+	align-items:center;
+	padding:6px;
+	height:60px;
+	flex-shrink:0;
+	box-sizing: boarder-box;
+}
+	.left-header{
+	margin.left:15px;
+	display:inline-block;
+	padding: 5px;
+	margin: 0 5px;
+	color: #222;
+	text-decoration: none;
+}
+	.right-header{
+	display: inline-block;
+	flex-grow: 1;
+	min-width:auto;
+	font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+	z-index: 986;
+	height: 48px;
+	color: black;
+	position: relative;
+	transition: box-shadow 250ms;
+
+}
+
+</style>
+
+<body class="body">
+<div class=body-thing><! -- whole body of page -->
+<div class="headers"><! -- headers -->
+<div><! -- left header-->
+<a class="left-header" href=https://www.google.com>About</a>
+<a class="left-header" href=https://www.google.com>Store</a>
+</div><! -- END left header-->
+<div><! -- right header -->
+<a class="right-header" href=https://www.google.com>Gmail</a>
+<a class="right-header" href=https://www.google.com>Images</a>
+</div><! -- END right header -->
+</div><! -- END headers -->
+</div><! -- END whole body of page -->
+</html>
